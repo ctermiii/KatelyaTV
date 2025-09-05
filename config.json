@@ -1,28 +1,30 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "example_test": {
-      "api": "https://example.com/api.php/provide/vod",
-      "name": "测试视频源",
-      "detail": "https://example.com"
+    "hnzy": {
+      "api": "https://hnzyapi.com/api.php/provide/vod",
+      "name": "火鸟资源",
+      "is_adult": false
     },
-    "demo_site1": {
-      "api": "https://your-api-domain.com/api.php/provide/vod", 
-      "name": "示例视频源1",
-      "detail": "https://your-domain.com"
+    "lzzy": {
+      "api": "https://api.liangzizy.com/inc/apijson_vod.php",
+      "name": "量子资源",
+      "is_adult": false
     },
-    "demo_site2": {
-      "api": "https://api.your-site.com/provide/vod",
-      "name": "示例视频源2"
+    "ffzy": {
+      "api": "https://ffzyapi.com/api.php/provide/vod",
+      "name": "非凡资源",
+      "is_adult": false
     },
-    "demo_site3": {
-      "api": "https://video-api.example.org/api.php/provide/vod",
-      "name": "示例视频源3",
-      "detail": "https://video.example.org"
+    "ykzy": {
+      "api": "https://api.yongjiuzy.cc/provide/vod",
+      "name": "永久资源",
+      "is_adult": false
     },
-    "demo_site4": {
-      "api": "https://media.sample-domain.net/api.php/provide/vod",
-      "name": "示例视频源4"
+    "bdzy": {
+      "api": "https://api.1080zyku.com/inc/apijson_vod.php",
+      "name": "百度资源",
+      "is_adult": false
     }
   }
 }
